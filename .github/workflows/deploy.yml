@@ -21,8 +21,8 @@ jobs:
       mongodb:
         image: mongo
         env:
-          MONGO_INTI_ROOT_USERNAME: root
-          MONGO_INTI_ROOT_PASSWORD: example
+          MONGO_INIT_ROOT_USERNAME: root
+          MONGO_INIT_ROOT_PASSWORD: example
     steps:
       - name: Get Code
         uses: actions/checkout@v3
